@@ -544,11 +544,6 @@ Frame_7.Size = UDim2.new(0, 60, 0, 0)
 
 -- Scripts:
 
-local function SMYAWVL_fake_script() -- TopFrame.LocalScript 
-	local script = Instance.new('LocalScript', TopFrame)
-
-	script.Parent.mouse
-end
 coroutine.wrap(SMYAWVL_fake_script)()
 local function BNVA_fake_script() -- GunButton.LocalScript 
 	local script = Instance.new('LocalScript', GunButton)
